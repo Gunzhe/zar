@@ -1,0 +1,78 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    text-align: center;
+    background-color: #999999;
+    border: 1px solid #FFFFFF;
+    height: 10vh;
+    justify-content: center;
+
+}
+
+.logIn {
+    background-color: #999999;
+    border-right: 1px solid black;
+    text-align: center;
+    width: 200px;
+    position: fixed;
+    top: 10vh;
+    height: 100vh;
+    line-height: 10vh;
+}
+
+input {
+    height: 30px;
+}
+
+.btn{
+    cursor: pointer;
+    height: 30px;
+}
+
+.new {
+    background-color: #dfdfdf;
+    border: 1px solid #AAAAAA;
+    padding:0 10px;
+    text-align: start;
+    width: 60%;
+    margin: 40px 20px 20px 350px;
+    position: absolute;
+    display: block;
+    height: fit-content;
+    line-height: 50px;
+    font-family: Cardo, sans-serif;
+}
+
+
+
+h3:hover {
+    background-color: #999999;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+i {
+    font-size: 15px;
+    color: dimgray;
+}
+ table {
+     border: 1px solid dimgray;
+     justify-content: center;
+ }
+ th, td {
+     border: 1px solid dimgray;
+ }
+
+
+
+
+
+

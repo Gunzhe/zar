@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello AdsController!{% endblock %}
+
+{% block body %}
+   <style>
+       .myAds {
+           background-color: #dfdfdf;
+           border: 1px solid #AAAAAA;
+           padding:0 10px;
+           margin: 40px 20px 20px 350px;
+           width: fit-content;
+           width: 60%;
+           height: fit-content;
+           position: absolute;
+           line-height: 50px;
+           font-family: Cardo, sans-serif;
+
+       }
+
+       .col {
+           display: inline-block;
+           border: 1px solid #999999;
+       }
+   </style>
+   <div class="myAds">
+       <div class="col">
+           <div id="number">N</div>
+           <div id="number">1</div>
+           <div id="number">2</div>
+       </div>
+       <div class="col">
+           <div id="title">Title</div>
+           <div id="title">Teller</div>
+           <div id="title">Senior Account Manager</div>
+       </div>
+       <div class="col">
+           <div id="actions"></div>
+           <div id="actions">
+               <button class="btns"><i class="fas fa-hexagon-check"></i></button>
+               <button class="btns"><i class="fas fa-hexagon-xmark"></i></button>
+           </div>
+           <div id="actions">
+               <button class="btns"><i class="fas fa-hexagon-check"></i></button>
+               <button class="btns"><i class="fas fa-hexagon-xmark"></i></button>
+           </div>
+       </div>
+   </div>
+{% endblock %}
+
